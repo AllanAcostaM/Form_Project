@@ -1,0 +1,72 @@
+// Fonts
+$font_familiy: "Fira Sans", sans-serif;
+
+// colors
+$blue_RAF: #718096;
+$blue_royal: #6495ed;
+$gray: #4a5568;
+$dark_gray: #2d3748;
+
+// color button
+$color_button: #161010;
+
+// color text
+$color_text: #cbc9cf;
+
+// Color placeholder
+$color_place: #a0aec0;
+
+// error
+$color_error: #fc8181;
+
+// borders
+$blue_steel_border: #383566;
+
+// bg-color
+$container_bg: linear-gradient(
+  to right bottom,
+  #10151d,
+  #121720,
+  #141822,
+  #171a25,
+  #191b27,
+  #1b1c29,
+  #1d1e2b,
+  #1f1f2d,
+  #21202f,
+  #222231,
+  #242334,
+  #262536
+);
+
+$button_bg: linear-gradient(
+  to left,
+  #323bf0,
+  #373cee,
+  #3c3eec,
+  #403fea,
+  #4440e8,
+  #4845e6,
+  #4d4ae5,
+  #514ee3,
+  #5757e1,
+  #5d5fdf,
+  #6366dd,
+  #6a6eda
+);
+
+$button_bg_hover: radial-gradient(
+  circle,
+  #525af6,
+  #5258f3,
+  #5355ef,
+  #5353ec,
+  #5350e9,
+  #5653e8,
+  #5a57e7,
+  #5d5ae6,
+  #6464e6,
+  #6c6de6,
+  #7477e6,
+  #7c80e5
+);

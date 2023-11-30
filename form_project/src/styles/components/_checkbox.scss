@@ -1,0 +1,19 @@
+@use "../variables" as v;
+
+@mixin checkbox() {
+  input[type="checkbox"] {
+    width: fit-content;
+    margin-right: 0.5rem;
+    transform: scale(1.25);
+  }
+  span {
+    font-family: v.$font_familiy;
+    font-weight: 700;
+  }
+  .checkbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,30 @@
+@use "variables" as v;
+
+.container {
+  width: 100vw;
+  height: 150vh;
+  padding: 5rem 1rem;
+  background-image: v.$container_bg;
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+  }
+  h3 {
+    border-left: 30px;
+    color: v.$blue_RAF;
+    font-family: v.$font_familiy;
+    border: 3px solid v.$blue_steel_border;
+    font-weight: 400;
+    letter-spacing: 0.13rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  h3:hover {
+    color: v.$blue_royal;
+  }
+}

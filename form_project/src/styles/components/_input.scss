@@ -1,0 +1,35 @@
+@use "../variables" as v;
+
+@mixin input() {
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="password"],
+  select {
+    font-family: v.$font_familiy;
+    border: 2px solid v.$gray;
+    background-color: v.$dark_gray;
+    color: v.$color_text;
+    width: 100%;
+    padding: 0.65rem 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 0.8rem;
+    outline: none;
+  }
+  input:focus,
+  select:focus {
+    border-color: v.$blue_royal;
+  }
+  input::placeholder {
+    color: v.$color_place;
+  }
+  input.input_error,
+  select.input_error {
+    border-color: v.$color_error;
+  }
+  input[type="checkbox"] {
+    width: fit-content;
+    margin-right: 0.5rem;
+    transform: scale(1.25);
+  }
+}

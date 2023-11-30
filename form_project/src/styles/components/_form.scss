@@ -1,0 +1,17 @@
+@use "input" as i;
+@use "error" as e;
+@use "label" as l;
+@use "button" as b;
+@use "checkbox" as cb;
+
+form {
+  width: 70%;
+  max-width: 400px;
+  margin: 0 auto;
+
+  @include i.input();
+  @include e.error();
+  @include l.label();
+  @include b.button();
+}
+@include cb.checkbox();
